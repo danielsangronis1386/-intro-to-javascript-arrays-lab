@@ -8,9 +8,9 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-//const foods = [];  
+const foods = [];  
 
-//console.log('Exercise 1 result:', foods);
+console.log('Exercise 1 result:', foods);
 
 /*
 Exercise 2: Add strings to the array
@@ -24,7 +24,7 @@ Complete Exercise 2 in the space below:
 
 const foods = ['Pizza', 'Chesseburger'];  
 
-//console.log('Exercise 2 result:', foods);
+console.log('Exercise 2 result:', foods);
 
 /*
 Exercise 3: Insert at the beginning
@@ -35,7 +35,7 @@ Complete Exercise 3 in the space below:
 */
 foods.unshift('Taco')
 
-//console.log('Exercise 3 result:', foods);
+console.log('Exercise 3 result:', foods);
 
 /*
 Exercise 4: Access an array element
@@ -50,7 +50,7 @@ Complete Exercise 4 in the space below:
 */
 const favFood = foods[1]
 
-//console.log('Exercise 4 result:', favFood);
+console.log('Exercise 4 result:', favFood);
 
 /*
 Exercise 5: Insert an element between two others
@@ -62,7 +62,7 @@ Complete Exercise 5 in the space below:
  foods.splice(2,0,'Tofu')
 
 
-//console.log('Exercise 5 result:', foods);
+console.log('Exercise 5 result:', foods);
 
 
 /*
@@ -181,7 +181,7 @@ Exercise 12: FizzBuzz with arrays
 
 Complete Exercise 12 in the space below:*/
 
-/*const fizz = []
+const fizz = []
 const buzz = []
 //const fizzbuzz = []
 nums.forEach((number)=> {
@@ -192,10 +192,10 @@ nums.forEach((number)=> {
  if (number % 5 == 0 && number % 5 == 0) {
         fizzbuzz.push(number)}
 })
-//console.log('Exercise 12 Results:');
-//console.log('  fizz:', fizz);
-//console.log('  buzz:', buzz);
-//console.log('  fizzbuzz:', fizzbuzz);›
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);›
 /*
 Exercise 13: Retrieve the Last Array
 
@@ -214,7 +214,7 @@ const numArrays = [
 	[45, 66],
 	[7, 81, 90]
 ];
-/*const numList = numArrays[numArrays.length - 1]
+const numList = numArrays[numArrays.length - 1]
 
 console.log('Exercise 13 result:', numList);
 
@@ -229,10 +229,10 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
-//const num = numArrays[2][1]
+const num = numArrays[2][1]
 
 
-//console.log('Exercise 14 result:', num);
+console.log('Exercise 14 result:', num);
 /*
 Exercise 15: Nested array sum
 
